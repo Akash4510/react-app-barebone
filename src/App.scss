@@ -1,0 +1,19 @@
+:root {
+  --clr-bg: #2d2d2d;
+  --clr-text: #fff;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+
+  &--theme-light {
+    --clr-bg: #fff;
+    --clr-text: #2d2d2d;
+  }
+}
